@@ -1,6 +1,6 @@
 Package: pargasite
 Title: Pollution-Associated Risk Geospatial Analysis Site
-Version: 2.1.0
+Version: 2.1.1
 Authors@R: c(
     person(given = "Jaehyun",
            family = "Joo",
@@ -30,7 +30,7 @@ Description: Offers tools to estimate and visualize levels of major pollutants
              relative to the National Ambient Air Quality Standards (NAAQS).
 License: BSD_3_clause + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Imports: cli, gstat, leaflet, leafsync, methods, raqs, rlang, sf (>=
         1.0-15), shiny, shinycssloaders, stars (>= 0.6-5), stats, utils
 Depends: R (>= 4.1.0)
@@ -38,7 +38,7 @@ LazyData: true
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2024-04-22 21:27:39 UTC; jaehyun
+Packaged: 2024-11-16 15:37:54 UTC; jaehyun
 Author: Jaehyun Joo [aut, cre],
   Rebecca Greenblatt [aut],
   Avantika Diwadkar [aut],
@@ -46,4 +46,4 @@ Author: Jaehyun Joo [aut, cre],
   Blanca Himes [aut]
 Maintainer: Jaehyun Joo <jaehyunjoo@outlook.com>
 Repository: CRAN
-Date/Publication: 2024-04-23 11:20:02 UTC
+Date/Publication: 2024-11-16 15:50:02 UTC
